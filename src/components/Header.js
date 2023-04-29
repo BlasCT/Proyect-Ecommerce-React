@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import rayo  from "./../assets/rayo.svg";
 function Header() {
   return (
     <>
@@ -28,7 +29,7 @@ function Header() {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white"><img className="logo" src={rayo} />Mall Tech Store</Link>
               </h2>
             </div>
             <div className="col-5">

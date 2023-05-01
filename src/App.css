@@ -23,7 +23,26 @@
   margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 .card-wrapper {
+=======
+.logo{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  position: relative;
+  top:20px;
+  right: 10px;
+  
+}
+
+.store{
+  position: relative;
+  left:80px;
+}
+
+.card-wrapper{
+>>>>>>> 4fa70e177631de55ccc7ddf883fed2b412a12239
   background-color: white;
   box-shadow: 0 0 10px #0000001a;
   padding: 15px;

@@ -1,11 +1,15 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+<<<<<<< HEAD
 import compare from "../images/compare.svg";
 import wishlist from "../images/wishlist.svg";
 import user from "../images/user.svg";
 import cart from "../images/cart.svg";
 import menu from "../images/menu.svg";
+=======
+import rayo  from "./../assets/rayo.svg";
+>>>>>>> 4fa70e177631de55ccc7ddf883fed2b412a12239
 function Header() {
   return (
     <>
@@ -33,7 +37,7 @@ function Header() {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white">Dev Corner</Link>
+                <Link className="text-white"><img className="logo" src={rayo} />Mall Tech <div className="store">Store</div> </Link>
               </h2>
             </div>
             <div className="col-5">

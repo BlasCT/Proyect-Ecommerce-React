@@ -1,15 +1,13 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
-<<<<<<< HEAD
 import compare from "../images/compare.svg";
 import wishlist from "../images/wishlist.svg";
 import user from "../images/user.svg";
 import cart from "../images/cart.svg";
 import menu from "../images/menu.svg";
-=======
-import rayo  from "./../assets/rayo.svg";
->>>>>>> 4fa70e177631de55ccc7ddf883fed2b412a12239
+import rayo from "../assets/rayo.svg"
+
 function Header() {
   return (
     <>

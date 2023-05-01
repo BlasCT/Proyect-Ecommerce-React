@@ -4,6 +4,7 @@ import Meta from "../components/Meta";
 import ReactStarts from "react-rating-stars-component";
 import ProductCard from "../components/ProductCard";
 import Color from "../components/Color";
+import Container from "../components/Container"
 
 function OurStore() {
   const [grid,setGrid] = useState(4);
@@ -12,8 +13,7 @@ function OurStore() {
     <>
       <Meta title={"Our Store"} />
       <BreadCrumb title="Our Store" />
-      <div className="store-wrapper home-wrapper-2 py-5">
-        <div className="container-xxl">
+      <Container class1="store-wrapper home-wrapper-2 py-5">
           <div className="row">
             <div className="col-3">
               <div className="filter-card mb-3">
@@ -175,7 +175,8 @@ function OurStore() {
                 <div className="d-flex justify-content-between        align-items-center">
                   <div className="d-flex align-items-center gap-10">
                     <p className="mb-0 d-block" style={{width: "100px"}}>Sort By:</p>
-                    <select name="" className="form-control form-select" id="">
+                    <select name="" defaultValue={"DEFAULT"} className="form-control form-select" id="">
+                      <option disabled value="DEFAULT"></option>
                       <option value="manual">Featured</option>
                       <option value="best-selling" selected="selected">
                         Best selling
@@ -210,8 +211,7 @@ function OurStore() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   );
 }

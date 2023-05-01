@@ -1,6 +1,11 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
+import compare from "../images/compare.svg";
+import wishlist from "../images/wishlist.svg";
+import user from "../images/user.svg";
+import cart from "../images/cart.svg";
+import menu from "../images/menu.svg";
 function Header() {
   return (
     <>
@@ -14,7 +19,7 @@ function Header() {
             </div>
             <div className="col-6">
               <p className="text-end text-white">
-                Hotline:
+                Fono:
                 <a className="text-white" href="tel:+91 8264954234">
                   +91 8264954234
                 </a>
